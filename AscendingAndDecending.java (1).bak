@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class AscendingAndDecending
+{
+	public static void main(String[] args) 
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Number of AscendingAndDecending Order array");
+	int size = scanner,nextInt();
+	int a[]={4,-1,0,11,3,5};
+	int array=new int[size];
+	System.out.print("Enter the Size of Elements");
+	for(int i=0;i<size;i++){
+		array[i]=sc.nextInt();
+	}
+	   int mid = size/2;
+	   int first_half=Arrays.copyORange(array,0,mid);
+	   int second_half=Arrays.copyOrange(array,mid,size);
+	   Arrays.sort(first_half);
+	   reverseArray(second_half);
+	   System.out.println("First_half in ascending order");
+	   System.out.println("second_half in ascending order");
+	   
+		}	
+		}
+	 System.out.print("a[]={");
+		 for (int i:a)
+		 {
+		 System.out.print(i+",");
+		 }
+		 System.out.println("}");
+	
+}
+}
+	
+
